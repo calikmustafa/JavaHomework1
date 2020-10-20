@@ -1,0 +1,23 @@
+package javaguestion3lab;
+import java.util.Scanner;
+
+public class javaguestionlab3 {
+
+	public static void main(String[] args) {
+		
+		Scanner input =new Scanner(System.in);
+		System.out.print("enter the females");
+		int female=input.nextInt();
+		System.out.print("enter the male");
+		int male=input.nextInt();
+		
+		float totalS=female+male;
+		float Malepercentage=male/totalS;
+		float Femalepercantage=female/totalS;
+		
+		System.out.print("The malePercentage is :"+" "+Malepercentage+" \n");
+		System.out.print("The femalePercentage is :"+" "+Femalepercantage+" \n");
+		
+	}
+
+}
