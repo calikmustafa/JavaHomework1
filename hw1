@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class labguestion1 {
+
+	public static void main(String[] args) {
+		Scanner input=new Scanner(System.in);
+		System.out.print("enter the first item");
+		int first=input.nextInt();
+		System.out.print("enter the second item");
+		int second=input.nextInt();
+		System.out.print("enter the three item");
+		int three=input.nextInt();
+		System.out.print("enter the four item");
+		int four=input.nextInt();
+		System.out.print("enter the five item");
+		int five=input.nextInt();
+		
+		float amount=(first+second+three+four+five);
+		
+		float tax=((amount*7))/100;
+		
+		float total=amount+tax;
+		
+		System.out.print("the subtotal amount"+" "+amount );
+		System.out.print("the tax amount"+" "+tax );
+		System.out.print("the total amount"+" "+total );
+		
+		
+		
+	}
+
+}
